@@ -74,8 +74,8 @@ int bln_pattern_len = 0;
 int bln_blink_time = 0;
 struct wake_lock bln_wakelock;
 
-static DECLARE_MUTEX(enable_sem);
-static DECLARE_MUTEX(i2c_sem);
+static DEFINE_SEMAPHORE(enable_sem);
+static DEFINE_SEMAPHORE(i2c_sem);
 
 struct cypress_touchkey_devdata *bl_devdata;
 
