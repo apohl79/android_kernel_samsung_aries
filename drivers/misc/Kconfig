@@ -609,4 +609,10 @@ config SAMSUNG_PARAM
 	help
 	  Driver for communication with Samsung's secondary bootloader
 
+config BLX
+       bool "Support for Battery Life eXtender"
+       default y
+       help
+         Say Y here to enable Battery Life eXtender
+
 endif # MISC_DEVICES
