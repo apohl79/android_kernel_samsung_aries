@@ -55,7 +55,7 @@
 
 // Blinking will be enabled only for some minutes as we need to keep the system awake
 // and we don't want to kill the battery. The value is defined in seconds.
-#define DEFAULT_BLN_BLINK_TIME 30
+#define DEFAULT_BLN_BLINK_TIME 300
 
 // Define state changes
 enum {
